@@ -1,0 +1,85 @@
+@import 'mdls';
+
+// -----reset
+*{
+    @include reset();
+}
+
+
+body{
+    @include disp-flex(center,center,column);
+    height: 100vh;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 70%;
+    height: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 3px black;
+    @include disp-flex($direct: row);
+    .key{
+        width: 20%;
+        height: 100%;
+        border: 1px solid black;
+        background-color: #fff;
+        cursor: pointer;
+        &:hover{
+            background-color: rgb(228, 216, 216);
+            box-shadow: 0 0 4px black;
+        }
+    }
+    // ------------------------------------------do
+    .do{
+        position: relative;
+        .doCrash{
+            @include nadaPagar();
+        }
+    }
+    // --------------------------------------------re
+    .re{
+        position: relative;
+        .reCrash{
+            @include nadaPagar();
+        }
+    }
+    .mi{
+        position: relative;
+    }
+    // --------------------------------------------fa
+    .fa{
+        position: relative;
+        .faCrash{
+            @include nadaPagar();
+        }
+    }
+    // --------------------------------------------sol
+    .sol{
+        position: relative;
+        .solCrash{
+            @include nadaPagar();
+        }
+    }
+    // --------------------------------------------la
+    .la{
+        position: relative;
+        .laCrash{
+            @include nadaPagar();
+        }
+    }
+    .si{
+        position: relative;
+    }
+    .do2{
+        position: relative;
+    }
+    .warna{
+        background-color: rgb(228, 216, 216);
+        box-shadow: 0 0 4px black;
+    }
+}
