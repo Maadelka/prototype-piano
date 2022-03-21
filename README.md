@@ -2,6 +2,8 @@
 prototype piano
 
 shorcut keyboard to play piano : 
+<br>
+<br>
 keyboard Q = nada c(do)
 <br>
 keyboard W = nada d(re)
