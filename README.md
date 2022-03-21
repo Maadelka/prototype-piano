@@ -1,7 +1,7 @@
 # prototype-piano
 prototype piano
 
-shorcut keyboard to play piano : 
+shorcut keyboard untuk memainkan piano : 
 <br>
 <br>
 keyboard Q = nada c(do)
