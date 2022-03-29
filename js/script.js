@@ -66,12 +66,12 @@ window.addEventListener('keyup',function(e){
 
     switch(e.key){
         case 'q': Ndo.classList.remove('warna');
-        case 'q': c.pause();
+//         case 'q': c.pause();
         case 'q': c.currentTime = 0;
         break;
         case 'w': Nre.classList.remove('warna');
-        case 'w': d.pause();
-        case 'w': d.currentTime = 0;
+//         case 'w': d.pause();
+//         case 'w': d.currentTime = 0;
         break;
         case 'e': Nmi.classList.remove('warna');
         case 'e': ee.pause();
